@@ -1,0 +1,22 @@
+my-table {
+  margin: 150px;
+}
+
+table {
+  width: 100%;
+  table-layout: fixed;
+  margin-top: 10px;
+}
+
+th, td {
+  overflow: hidden;
+  width: 200px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: left;
+}
+
+.green-button{
+  background-color: #92b605;
+  color: white;
+}

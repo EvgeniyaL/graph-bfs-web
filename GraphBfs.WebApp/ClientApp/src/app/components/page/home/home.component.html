@@ -1,0 +1,6 @@
+<div class="container text-center">
+  <div>Current center is <strong>{{center ? center : "..."}}</strong></div>
+  <button class="green-button" mat-button (click)="calculateCenter()" mat-raised-button color="accent">recalulate center</button>
+</div>
+<network-graph [events]="eventsSubject.asObservable()"></network-graph>
+
